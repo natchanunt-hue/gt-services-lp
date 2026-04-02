@@ -24,7 +24,6 @@ export async function POST(request) {
           event_id: body.eventId, // สำคัญมาก! ต้องตรงกับหน้าบ้านเพื่อลบตัวซ้ำ
         }],
         // [เพิ่ม] ใส่ Test Code ตรงนี้ถ้าคุณกำลังเปิดหน้า Events Manager ดูอยู่
-        test_event_code: 'TEST92801' 
       }),
     });
 
